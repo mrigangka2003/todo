@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    background-color: #282A3A;
+}
+.header{
+    height: 50px;
+    font-size: 2.3em;
+    color:whitesmoke ;
+    font-family:'Bitter', serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.todoForm{
+    width: 80%;
+    margin: auto;
+    margin-top : 20px ;
+    border-radius: 50px;
+}
+
+.todoInput{
+    width: 80% ;
+    border: none ;
+    border-bottom: 1px solid whitesmoke;
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    text-align: center;
+    height: 50px;
+    border-radius: 80px;
+}
+
+.todoBtn{
+    width: 10%;
+    border:none ;
+    height: 50px ;
+    font-family: 'Bitter', serif;
+    background-color: black;
+    font-size: 1.2em;
+    color: white ;
+    margin-left:20px ;
+    border-radius: 80px;
+}
+
+.todoBtn:hover{
+    background-color: #282A3A;
+    color : whitesmoke ;
+    border: 0.5px solid white;
+}
+.todoItem{
+    font-family: 'Bitter', serif;
+    position: relative;
+    width: 75%;
+    margin:auto ;
+    background-color:Tomato;
+    border-radius: 20px;
+    padding:10px ;
+    margin-top : 20px ;
+}
+
+.todoItem:hover{
+    background-color: #001253;
+}
+
+/* .todoName{
+    width: auto;
+    height: auto;
+} */
+
+.deleteBtn{
+    border:none ;
+    position : absolute ;
+    right: 0;
+    margin : 10px; 
+    height: 50px ;
+    background-color: red;
+    width: 100px;
+    border-radius: 10px;
+    color:  white ;
+}
+
+.deleteBtn:hover{
+    background-color: #FF6E31;
+    border: 0.5px solid whitesmoke;
+}
+
+.todoItem h3{
+    color : whitesmoke ;
+}
+/* have to add hover at the buttons */
